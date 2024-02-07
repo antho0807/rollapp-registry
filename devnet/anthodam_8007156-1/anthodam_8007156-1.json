@@ -1,0 +1,33 @@
+{
+  "chainId": "anthodam_8007156-1",
+  "chainName": "anthodam_8007156-1",
+  "rpc": "https://37.60.229.103:26657" ,
+  "rest": "https://37.60.229.103:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "DAM",
+      "baseDenom": "uDAM",
+      "decimals": 18,
+      "logo": "/logos/anthodam_8007156-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/anthodam_8007156-1.png",
+  "ibc": {
+    "hubChannel": "channel-9425",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x7a2df4",
+    "rpc": "https://37.60.229.103:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "damantho",
+  "analytics": true
+}
